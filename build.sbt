@@ -1,12 +1,14 @@
-name := "dojo-quickstart"
+name := "conway"
 
 version := "0.1.0"
 
-scalaVersion := "2.10.3"
+scalaVersion := "2.10.2"
 
 libraryDependencies ++= Seq(
   "junit" % "junit" % "4.11" % "test",
-  "org.scalatest" %% "scalatest" % "2.0" % "test->default"
+  "org.scalatest" %% "scalatest" % "2.0" % "test->default",
+  "org.scalaz" %% "scalaz-core" % "7.0.4",
+  "com.netflix.rxjava" % "rxjava-scala" % "0.15.0"
 )
 
 // Use Java 7 (change to JavaSE16 if you don't have Java 7 installed)
